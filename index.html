@@ -1,37 +1,28 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #e8f5e9;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Futebol - Site Simples</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-header {
-  background-color: #2e7d32;
-  color: white;
-  padding: 20px;
-  font-size: 24px;
-}
+  <header>
+    ⚽ Futebol Mania ⚽
+  </header>
 
-.container {
-  padding: 20px;
-}
+  <div class="container">
+    <h2>Bem-vindo ao mundo do futebol</h2>
 
-h2 {
-  color: #1b5e20;
-}
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Soccer_ball.svg" alt="Bola de futebol" id="bola">
 
-img {
-  width: 300px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  margin-top: 10px;
-}
+    <p id="texto">
+      Clique no botão para ver uma mensagem especial!
+    </p>
 
-p {
-  font-size: 18px;
-  color: #333;
-  max-width: 600px;
-  margin: 20px auto;
-  line-height: 1.5;
-}
+    <button onclick="mostrarMensagem()">Clique aqui</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
